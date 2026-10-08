@@ -174,6 +174,18 @@ a:hover {
   line-height: 1.2;
 }
 
+a.brand,
+.brand a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.brand:hover,
+.brand a:hover,
+.mast-place a:hover {
+  color: var(--green);
+}
+
 .mast-place {
   margin: 0;
   color: var(--muted);
@@ -831,5 +843,84 @@ a:hover {
   a[href^="mailto:"]::after {
     content: " (" attr(href) ")";
     font-size: 0.85em;
+  }
+}
+
+/* Home, shop, and the short legal pages */
+
+.doors {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.door {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+  min-height: 16rem;
+  padding: 1.35rem 1.25rem 1.25rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--green);
+  color: inherit;
+  text-decoration: none;
+}
+
+.door h2,
+.door p {
+  margin: 0;
+}
+
+.door p {
+  color: var(--muted);
+  max-width: 36rem;
+}
+
+.door .kicker {
+  color: var(--green);
+}
+
+.door-go {
+  margin-top: auto;
+  padding-top: 1.1rem;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.door:hover,
+.door:focus-visible {
+  border-color: var(--green);
+  color: inherit;
+}
+
+.door:hover .door-go,
+.door:focus-visible .door-go {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.prose {
+  max-width: 40rem;
+}
+
+.prose h2 {
+  margin-top: 2rem;
+}
+
+.prose h2:first-of-type {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 40rem) {
+  .doors {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (forced-colors: active) {
+  .door {
+    border: 1px solid CanvasText;
   }
 }

@@ -1,32 +1,38 @@
-# Local IT & Automation
+# Veridex
 
-A one-page static website for a one-person IT and automation service for small businesses in Ireland. Plain HTML and CSS. No build step, no analytics, and no contact form.
-
-The page is `index.html`. Styles are in `styles.css`. An empty `.nojekyll` file tells GitHub Pages to serve the files as they are.
-
-**Target:** have the site live on GitHub Pages by 15 October 2026.
+A small static website for Veridex, a business in Ireland with two lines of work: IT support and automation for local businesses, and 3D printed products (not open yet). Plain HTML and CSS. No build step, no analytics, and no contact form.
 
 **Live site:** https://veridex-business.github.io/
 
-## Change the brand name
+This repository is named `veridex-business.github.io`. GitHub Pages serves it as a user site from the `main` branch, folder **/ (root)**.
 
-The placeholder brand is **Local IT & Automation**. It is not a final business name.
+## Pages
 
-In `index.html`, search for `Local IT & Automation` and replace every occurrence. That covers:
+| Path | What it is |
+| --- | --- |
+| `/` | Home. Routes to the two lines of business. Brand name: Veridex. |
+| `/it/` | The IT and automation one-pager. The service heading is still the placeholder **Local IT & Automation**. |
+| `/shop/` | Coming soon page for 3D printed products. It will later be replaced by a shop. |
+| `/privacy/` | Privacy note. Draft: the owner should review it. |
+| `/terms/` | Site terms, plus shop terms marked to be finalised before anything is sold. Draft: the owner should review it. |
 
-- the `<title>` and the Open Graph / Twitter titles
-- the header (`id="brand-name"`)
-- the footer
+Shared files stay at the root: `styles.css`, `favicon.ico`, `favicon.svg`, `og.png` (the IT page), and `og-veridex.png` (the other pages). Pages link to those with root paths such as `/styles.css`, so they work from `/it/` and the other folders. An empty `.nojekyll` file tells GitHub Pages to serve the files as they are.
 
-Update `og:image:alt` and `twitter:image:alt` if you change the wording there too. If you replace the social image, edit `og.png` as well.
+The shop may later move to its own repo at `/shop-repo-name/` or a subdomain. Until then it lives at `/shop/` in this repository.
+
+## Change the IT service name
+
+The IT page heading **Local IT & Automation** is not a final name. In `it/index.html`, search for `Local IT & Automation` and replace every occurrence (title, social tags, header, footer).
+
+The public brand on the home page, shop, privacy, and terms is **Veridex**. Search the repository for `Veridex` if that name changes.
 
 ## Change the email
 
-Search `index.html` for `enquiries@agentmail.to` and replace every occurrence, including the `mailto:` links.
+Search the repository for `enquiries@agentmail.to` and replace every occurrence, including `mailto:` links.
 
-## Change the prices
+## Change the IT prices
 
-The prices are **placeholders** until you confirm them. They appear in one place: the pricing section of `index.html`. Search for `PRICE SETTINGS`. Edit these three lines and nothing else needs to match them:
+The prices are **placeholders** until you confirm them. They appear only in the pricing section of `it/index.html`. Search for `PRICE SETTINGS`. Edit these three lines:
 
 | Element | Text now |
 | --- | --- |
@@ -34,9 +40,17 @@ The prices are **placeholders** until you confirm them. They appear in one place
 | `#price-standard` | from €299/month |
 | `#price-setup` | One-off setup from €250 |
 
-Leave the wording around them ("a guide", "I will confirm your fee") unless you have final figures and want to tighten that sentence.
+The diagram on that page uses **€86.40** as a made-up receipt. That is not a plan price. The line “9–15 staff: ask for a quote” is not a price.
 
-The diagram further up the page uses **€86.40** and **21 Oct 2026** as a made-up example of a logged receipt. Those are not plan prices.
+## Social links
+
+Each page has a canonical URL, `og:url`, and an absolute `og:image` / `twitter:image`.
+
+- Home, shop, privacy, and terms use `https://veridex-business.github.io/og-veridex.png`
+- `/it/` uses `https://veridex-business.github.io/og.png`
+- `/it/` canonical and `og:url` are `https://veridex-business.github.io/it/`
+
+If the site address changes, update those URLs in each page.
 
 ## Preview on your computer
 
@@ -46,13 +60,13 @@ From this folder:
 python3 -m http.server 8080
 ```
 
-Open `http://127.0.0.1:8080`.
+Open `http://127.0.0.1:8080`. Root paths such as `/styles.css` and `/it/` need the server. Opening the HTML files directly from disk will not load the stylesheet.
 
 ## Enable GitHub Pages
 
-This repository is named `veridex-business.github.io`. GitHub Pages serves that name as a user site at https://veridex-business.github.io/ from the `main` branch, folder **/ (root)**.
+Pages is already set to deploy from the `main` branch, folder **/ (root)**, which publishes https://veridex-business.github.io/
 
-To turn that on again, or to check it:
+To check or turn that on again:
 
 1. On GitHub, open this repository and go to **Settings**.
 2. In the left sidebar, open **Pages**.
@@ -60,17 +74,6 @@ To turn that on again, or to check it:
 4. Set the branch to **main** and the folder to **/ (root)**.
 5. Save.
 
-`.nojekyll` is included so Pages does not run a Jekyll build.
-
-## Social preview links
-
-In `index.html` these already point at the live site:
-
-- the canonical link and `og:url` are https://veridex-business.github.io/
-- `og:image` and `twitter:image` are https://veridex-business.github.io/og.png
-
-If the site address changes, update those.
-
 ## What this site does not include
 
-No contact form, no JavaScript, no external fonts, and no tracking cookies or analytics. Email is the only way to get in touch.
+No contact form, no JavaScript, no external fonts, and no tracking cookies or analytics. Email is the only way to get in touch. The privacy and terms pages are drafts for the owner to review before they are treated as final.
