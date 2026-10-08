@@ -11,7 +11,7 @@ This repository is named `veridex-business.github.io`. GitHub Pages serves it as
 | Path | What it is |
 | --- | --- |
 | `/` | Home. Routes to the two lines of business. Brand name: Veridex. |
-| `/it/` | The IT and automation one-pager. The service heading is still the placeholder **Local IT & Automation**. |
+| `/it/` | The IT and automation one-pager. Section label: **Veridex IT & Automation**. |
 | `/shop/` | Redirects to the live print shop at `/veridex-shop/`. |
 | `/privacy/` | Privacy note. Draft: the owner should review it. |
 | `/terms/` | Site terms, plus shop terms marked to be finalised before anything is sold. Draft: the owner should review it. |
@@ -20,27 +20,17 @@ Shared files stay at the root: `styles.css`, `favicon.ico`, `favicon.svg`, `og.p
 
 The print shop, Veridex Prints, lives in the separate repository `Veridex-Business/veridex-shop` and is published at https://veridex-business.github.io/veridex-shop/. The home page links there. `/shop/` stays in this repository as a redirect so older links still work.
 
-## Change the IT service name
+## IT service name
 
-The IT page heading **Local IT & Automation** is not a final name. In `it/index.html`, search for `Local IT & Automation` and replace every occurrence (title, social tags, header, footer).
-
-The public brand on the home page, shop, privacy, and terms is **Veridex**. Search the repository for `Veridex` if that name changes.
+The IT page uses **Veridex IT & Automation** as the section label (title, social tags, header, and footer). The trading name is **Veridex**. The public brand on the home page, shop, privacy, and terms is **Veridex**.
 
 ## Change the email
 
 Search the repository for `enquiries@agentmail.to` and replace every occurrence, including `mailto:` links.
 
-## Change the IT prices
+## IT pricing
 
-The prices are **placeholders** until you confirm them. They appear only in the pricing section of `it/index.html`. Search for `PRICE SETTINGS`. Edit these three lines:
-
-| Element | Text now |
-| --- | --- |
-| `#price-starter` | from €149/month |
-| `#price-standard` | from €299/month |
-| `#price-setup` | One-off setup from €250 |
-
-The diagram on that page uses **€86.40** as a made-up receipt. That is not a plan price. The line “9–15 staff: ask for a quote” is not a price.
+Prices are not published. The IT page says **Pricing on request**, with a note to email for a quote. Do not add figures. The line “9–15 staff: ask for a quote” is not a price.
 
 ## Social links
 
