@@ -1,6 +1,6 @@
 # Veridex
 
-A small static website for Veridex, a business in Ireland with two lines of work: IT support and automation for local businesses, and 3D printed products (not open yet). Plain HTML and CSS. No build step, no analytics, and no contact form.
+A small static website for Veridex, a business in Ireland with two lines of work: IT support and automation for local businesses, and 3D printed products. Plain HTML and CSS. No build step, no analytics, and no contact form.
 
 **Live site:** https://veridex-business.github.io/
 
@@ -12,13 +12,13 @@ This repository is named `veridex-business.github.io`. GitHub Pages serves it as
 | --- | --- |
 | `/` | Home. Routes to the two lines of business. Brand name: Veridex. |
 | `/it/` | The IT and automation one-pager. The service heading is still the placeholder **Local IT & Automation**. |
-| `/shop/` | Coming soon page for 3D printed products. It will later be replaced by a shop. |
+| `/shop/` | Redirects to the live print shop at `/veridex-shop/`. |
 | `/privacy/` | Privacy note. Draft: the owner should review it. |
 | `/terms/` | Site terms, plus shop terms marked to be finalised before anything is sold. Draft: the owner should review it. |
 
 Shared files stay at the root: `styles.css`, `favicon.ico`, `favicon.svg`, `og.png` (the IT page), and `og-veridex.png` (the other pages). Pages link to those with root paths such as `/styles.css`, so they work from `/it/` and the other folders. An empty `.nojekyll` file tells GitHub Pages to serve the files as they are.
 
-The shop may later move to its own repo at `/shop-repo-name/` or a subdomain. Until then it lives at `/shop/` in this repository.
+The print shop, Veridex Prints, lives in the separate repository `Veridex-Business/veridex-shop` and is published at https://veridex-business.github.io/veridex-shop/. The home page links there. `/shop/` stays in this repository as a redirect so older links still work.
 
 ## Change the IT service name
 

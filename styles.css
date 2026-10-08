@@ -9,6 +9,9 @@
   --line: #d2c9b8;
   --green: #1b3f32;
   --green-deep: #12281f;
+  --shop: #a95168;
+  --shop-deep: #8f3f55;
+  --shop-soft: #f6e7ea;
   --human: #6e3a22;
   --auto: #245544;
   --on-green: #f7f3ea;
@@ -899,6 +902,33 @@ a.brand:hover,
 .door:focus-visible .door-go {
   text-decoration: underline;
   text-underline-offset: 0.15em;
+}
+
+.door--shop {
+  border-top-color: var(--shop);
+}
+
+.door--shop .kicker,
+.door--shop .door-go {
+  color: var(--shop-deep);
+}
+
+.door--shop:hover,
+.door--shop:focus-visible {
+  border-color: var(--shop);
+}
+
+.shop-note h1 {
+  padding-top: 0.85rem;
+  border-top: 4px solid var(--shop);
+}
+
+.shop-note a {
+  color: var(--shop-deep);
+}
+
+.shop-note a:hover {
+  color: var(--shop);
 }
 
 .prose {
