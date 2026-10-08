@@ -6,7 +6,7 @@ The page is `index.html`. Styles are in `styles.css`. An empty `.nojekyll` file 
 
 **Target:** have the site live on GitHub Pages by 15 October 2026.
 
-**Live site:** https://depressed-anon.github.io/local-it-site/
+**Live site:** https://veridex-business.github.io/local-it-site/
 
 ## Change the brand name
 
