@@ -6,7 +6,7 @@ The page is `index.html`. Styles are in `styles.css`. An empty `.nojekyll` file 
 
 **Target:** have the site live on GitHub Pages by 15 October 2026.
 
-**Live site:** https://veridex-business.github.io/local-it-site/
+**Live site:** https://veridex-business.github.io/
 
 ## Change the brand name
 
@@ -50,27 +50,26 @@ Open `http://127.0.0.1:8080`.
 
 ## Enable GitHub Pages
 
-The site is set up for a plain branch deploy from the repository root. Do this after the files are on the `main` branch.
+This repository is named `veridex-business.github.io`. GitHub Pages serves that name as a user site at https://veridex-business.github.io/ from the `main` branch, folder **/ (root)**.
 
-1. Merge the site to the `main` branch.
-2. On GitHub, open this repository and go to **Settings**.
-3. In the left sidebar, open **Pages**.
-4. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-5. Set the branch to **main** and the folder to **/ (root)**.
-6. Save.
+To turn that on again, or to check it:
 
-GitHub will publish the site. A project repository is served at `https://<user>.github.io/<repository>/`. A user site (`<user>.github.io` as the repository name) is served at `https://<user>.github.io/`. The first deploy can take a minute. Relative links are used so the page works in either place.
+1. On GitHub, open this repository and go to **Settings**.
+2. In the left sidebar, open **Pages**.
+3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+4. Set the branch to **main** and the folder to **/ (root)**.
+5. Save.
 
 `.nojekyll` is included so Pages does not run a Jekyll build.
 
-## After the site is live
+## Social preview links
 
-In `index.html`, set the social preview tags to absolute URLs on your Pages address:
+In `index.html` these already point at the live site:
 
-- `og:url` — the page URL
-- `og:image` and `twitter:image` — the full URL of `og.png` (for example `https://<user>.github.io/<repository>/og.png`)
+- the canonical link and `og:url` are https://veridex-business.github.io/
+- `og:image` and `twitter:image` are https://veridex-business.github.io/og.png
 
-Until those are absolute, link previews may show the title and description without the image.
+If the site address changes, update those.
 
 ## What this site does not include
 
