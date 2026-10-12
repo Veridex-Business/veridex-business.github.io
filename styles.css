@@ -739,6 +739,18 @@ a.brand:hover,
   color: white;
 }
 
+.contact-phone {
+  display: block;
+  margin-top: 0.65rem;
+  color: var(--on-green);
+  font-size: 1.2rem;
+  font-weight: 650;
+}
+
+.contact-phone:hover {
+  color: white;
+}
+
 .contact-action {
   margin: 1.15rem 0 0;
 }
@@ -938,6 +950,11 @@ a.brand:hover,
   .button,
   .sticky-contact {
     display: none;
+  }
+
+  .contact-email,
+  .contact-phone {
+    color: black;
   }
 
   .band,

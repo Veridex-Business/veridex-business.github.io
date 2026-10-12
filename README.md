@@ -11,7 +11,7 @@ This repository is named `veridex-business.github.io`. GitHub Pages serves it as
 | Path | What it is |
 | --- | --- |
 | `/` | Home. Routes to the two lines of business. Legal name: **Veridex Ltd**. |
-| `/it/` | IT support for small businesses in Limerick. Section label: **Veridex IT & Automation**. |
+| `/it/` | IT support for small businesses in Limerick. Header: **Veridex Ltd**. |
 | `/shop/` | Redirects to the live print shop at `/veridex-shop/`. |
 | `/privacy/` | Privacy note. Draft: the owner should review it. |
 | `/terms/` | Site terms, plus shop terms marked to be finalised before anything is sold. Draft: the owner should review it. |
@@ -22,7 +22,7 @@ The print shop, Veridex Prints, lives in the separate repository `Veridex-Busine
 
 ## IT service name
 
-The IT page uses **Veridex IT & Automation** as the section label in the header. The legal name, wherever the business is named as the trader, is **Veridex Ltd**. Do not shorten that to Veridex.
+The IT page header is **Veridex Ltd**. Use that wherever the business is named. Do not shorten it to Veridex, and do not use “Veridex IT & Automation” or “Local IT & Automation” as a trading name.
 
 The IT page is aimed at local businesses with about 1 to 10 staff. The service area line is: On-site around Limerick city, remote anywhere in Ireland.
 
@@ -30,9 +30,9 @@ The work is software, setup, accounts, backups, security and automations. Do not
 
 ## Footer
 
-Home, the IT page, privacy, and terms share this line. Keep the brackets so the owner can fill them in:
+Home, the IT page, privacy, and terms share this line:
 
-Veridex Ltd, registered in Ireland, company no. [CRO NUMBER], registered office: [REGISTERED OFFICE ADDRESS]
+Veridex Ltd, registered in Ireland, company no. 824155, registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4
 
 Each of those footers links to the privacy page. The shop redirect is left unchanged.
 
@@ -40,7 +40,7 @@ Each of those footers links to the privacy page. The shop redirect is left uncha
 
 Search the repository for `enquiries@agentmail.to` and replace every occurrence, including `mailto:` links.
 
-A phone number is not published. The IT page has a commented placeholder in **How to get in touch**. Uncomment it and add the number there when you have one. Do not use a stock photo for the owner: replace the hero placeholder on `/it/` with a real photo.
+The IT page lists 085 715 0506 in **How to get in touch**, linked as `tel:+353857150506`. Do not use a stock photo for the owner: replace the hero placeholder on `/it/` with a real photo.
 
 ## IT pricing
 
@@ -80,4 +80,4 @@ To check or turn that on again:
 
 ## What this site does not include
 
-No contact form, no JavaScript, no external fonts, and no tracking cookies or analytics. Email is the only way to get in touch. The privacy and terms pages are drafts for the owner to review before they are treated as final.
+No contact form, no JavaScript, no external fonts, and no tracking cookies or analytics. Email and the phone number on the IT page are how to get in touch. The privacy and terms pages are drafts for the owner to review before they are treated as final.
