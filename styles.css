@@ -800,6 +800,27 @@ a.brand:hover,
   .has-sticky-contact {
     padding-bottom: calc(4.75rem + env(safe-area-inset-bottom));
   }
+
+  .hero {
+    padding-top: 1.5rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .hero-side .owner-photo {
+    order: 2;
+  }
+
+  .hero-side .in-short {
+    margin-bottom: 5.25rem;
+  }
+
+  .in-short-where {
+    display: none;
+  }
+
+  .owner-photo-frame {
+    min-height: 5.5rem;
+  }
 }
 
 @media (min-width: 48rem) {
