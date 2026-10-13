@@ -192,8 +192,11 @@ a.brand:hover,
 
 .mast-place {
   margin: 0;
+  max-width: 24rem;
   color: var(--muted);
   font-size: 0.95rem;
+  line-height: 1.35;
+  text-align: right;
 }
 
 .nav {
@@ -242,40 +245,6 @@ a.brand:hover,
   max-width: 40rem;
   color: var(--green);
   font-weight: 700;
-}
-
-.owner-photo {
-  margin: 0;
-}
-
-.owner-photo-frame {
-  display: grid;
-  place-items: center;
-  min-height: 6.5rem;
-  padding: 1rem;
-  background-color: var(--paper);
-  background-image:
-    linear-gradient(var(--line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--line) 1px, transparent 1px);
-  background-size: 1.25rem 1.25rem;
-  border: 1px dashed var(--green);
-  color: var(--green);
-  text-align: center;
-}
-
-.owner-photo-frame span {
-  padding: 0.35rem 0.65rem;
-  background: var(--paper);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.owner-photo figcaption {
-  margin: 0.4rem 0 0;
-  color: var(--muted);
-  font-size: 0.85rem;
 }
 
 .hero-actions {
@@ -818,20 +787,12 @@ a.brand:hover,
     padding-bottom: 1.75rem;
   }
 
-  .hero-side .owner-photo {
-    order: 2;
-  }
-
-  .hero-side .in-short {
-    margin-bottom: 5.25rem;
+  .mast-place {
+    text-align: left;
   }
 
   .in-short-where {
     display: none;
-  }
-
-  .owner-photo-frame {
-    min-height: 5.5rem;
   }
 }
 
@@ -862,10 +823,6 @@ a.brand:hover,
     grid-template-columns: minmax(0, 1.45fr) minmax(16rem, 0.75fr);
     gap: 2.5rem;
     align-items: start;
-  }
-
-  .owner-photo-frame {
-    min-height: 11rem;
   }
 
   .split {
@@ -932,8 +889,7 @@ a.brand:hover,
   .path,
   .faq,
   .tray,
-  .steps li,
-  .owner-photo-frame {
+  .steps li {
     border: 1px solid CanvasText;
   }
 }

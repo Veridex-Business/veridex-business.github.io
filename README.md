@@ -1,6 +1,6 @@
 # Veridex
 
-A small static website for Veridex Ltd, a company in Limerick, Ireland, with two lines of work: IT support and automation for local businesses, and 3D printed products. Plain HTML and CSS. No build step, no analytics, and no contact form.
+A small static website for Veridex Ltd, a company in Ireland, with two lines of work: IT support and automation for local businesses, and 3D printed products. Plain HTML and CSS. No build step, no analytics, and no contact form.
 
 **Live site:** https://veridex-business.github.io/
 
@@ -34,13 +34,15 @@ Home, the IT page, privacy, and terms share this line:
 
 Veridex Ltd, registered in Ireland, company no. 824155, registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4
 
+The home page and the IT page use that same registered office as the place line in the header. Do not publish a different postal address or a home address. Limerick on the IT page is the service area, not a postal address.
+
 Each of those footers links to the privacy page. The shop redirect is left unchanged.
 
 ## Change the email
 
 Search the repository for `enquiries@agentmail.to` and replace every occurrence, including `mailto:` links.
 
-The IT page lists 085 715 0506 in **How to get in touch**, linked as `tel:+353857150506`. Do not use a stock photo for the owner: replace the hero placeholder on `/it/` with a real photo.
+The IT page lists 085 715 0506 in **How to get in touch**, linked as `tel:+353857150506`.
 
 ## IT pricing
 
