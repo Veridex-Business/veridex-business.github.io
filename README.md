@@ -14,7 +14,7 @@ This repository is named `veridex-business.github.io`. GitHub Pages serves it as
 | `/it/` | IT support for small businesses in Limerick. Header: **Veridex Ltd**. |
 | `/shop/` | Redirects to the live print shop at `/veridex-shop/`. |
 | `/privacy/` | Privacy note. Draft: the owner should review it. |
-| `/terms/` | Site terms, plus shop terms marked to be finalised before anything is sold. Draft: the owner should review it. |
+| `/terms/` | Terms for IT support. Draft: the owner should review it. |
 
 Shared files stay at the root: `styles.css`, `favicon.ico`, `favicon.svg`, `og.png` (the IT page), and `og-veridex.png` (the other pages). Pages link to those with root paths such as `/styles.css`, so they work from `/it/` and the other folders. An empty `.nojekyll` file tells GitHub Pages to serve the files as they are.
 
@@ -36,7 +36,7 @@ Veridex Ltd, private company limited by shares · Registered in Ireland, CRO no.
 
 Each of those footers links to Privacy and Terms. The contact email is nigel@veridex.ie. Do not add personal details.
 
-The home page and the IT page use that same registered office as the place line in the header. Do not publish a different postal address or a home address. Limerick on the IT page is the service area, not a postal address.
+The registered office appears once, in the footer. The home and IT headers say Ireland. Do not publish a different postal address or a home address. Limerick on the IT page is the service area, not a postal address.
 
 ## Change the email
 
@@ -102,4 +102,4 @@ To check or turn that on again:
 
 ## What this site does not include
 
-No contact form, no JavaScript, no external fonts, and no tracking cookies or analytics. Email and the phone number on the IT page are how to get in touch. The privacy and terms pages are drafts for the owner to review before they are treated as final.
+No contact form and no JavaScript. The shop fonts and icon file are stored in this repository. Email and the phone number on the IT page are how to get in touch. The privacy and terms pages are drafts for the owner to review before they are treated as final.
