@@ -2,7 +2,7 @@
 
 A small static website for Veridex Ltd, a company in Ireland, with two lines of work: IT support and automation for local businesses, and 3D printed products. Plain HTML and CSS. No build step, no analytics, and no contact form.
 
-**Live site:** https://veridex-business.github.io/
+**Live site:** https://veridex.ie/
 
 This repository is named `veridex-business.github.io`. GitHub Pages serves it as a user site from the `main` branch, folder **/ (root)**.
 
@@ -50,7 +50,7 @@ You pay for the work done. Veridex Ltd invoices after the job. Payment is due wi
 
 - Standard: €50 per hour, Monday to Friday, 9:00 to 17:00. Remote or on-site.
 - After hours or emergencies: €130 per hour.
-- Full day: €595.
+- Full day: €375.
 - Minimum charge: 30 minutes, then 15-minute steps.
 - Backup check (remote, up to 5 devices): €35 flat. Includes confirming backups ran and are recent, running the backup tool's integrity check, and restoring 2 or 3 sample files to check they open. Does not include a full restore or booting the backup in a virtual machine. Fixing failed backups is billed hourly.
 - Full restore test: €60 flat. Everything in the backup check, plus restoring a whole device or the main shared data to a spare disk or virtual machine, booting or opening it, and confirming it works, with a written report. Covers time up to €75 at the standard rate. Time beyond that is billed at €50 per hour.
@@ -62,9 +62,9 @@ The IT page also says: Prices exclude VAT. VAT is added where it applies.
 
 Each page has a canonical URL, `og:url`, and an absolute `og:image` / `twitter:image`.
 
-- Home, shop, privacy, and terms use `https://veridex-business.github.io/og-veridex.png`
-- `/it/` uses `https://veridex-business.github.io/og.png`
-- `/it/` canonical and `og:url` are `https://veridex-business.github.io/it/`
+- Home, shop, privacy, and terms use `https://veridex.ie/og-veridex.png`
+- `/it/` uses `https://veridex.ie/og.png`
+- `/it/` canonical and `og:url` are `https://veridex.ie/it/`
 
 If the site address changes, update those URLs in each page.
 
@@ -80,7 +80,7 @@ Open `http://127.0.0.1:8080`. Root paths such as `/styles.css` and `/it/` need t
 
 ## Enable GitHub Pages
 
-Pages is already set to deploy from the `main` branch, folder **/ (root)**, which publishes https://veridex-business.github.io/
+Pages is already set to deploy from the `main` branch, folder **/ (root)**, which publishes https://veridex.ie/
 
 To check or turn that on again:
 
