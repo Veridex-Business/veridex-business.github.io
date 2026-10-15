@@ -46,7 +46,7 @@ The IT page lists 085 715 0506 in **How to get in touch**, linked as `tel:+35385
 
 ## IT pricing
 
-You pay for the work done. Households pay upfront by card through a Revolut Business payment link. Business customers are invoiced, and payment is due within 7 days. A one-off job does not need a contract. Home Care is €19 a month, paid monthly in advance by a Revolut Business payment link. It runs month to month, and you can end it at the end of the month you have paid for. Support hours are Monday to Friday, 9:00 to 17:00. Prices: pay per job. All prices include VAT at 23%. Business customers get a VAT invoice.
+You pay for the work done. We send a Revolut Business invoice with a secure payment link by WhatsApp or email. You can pay by card, Apple Pay, Google Pay or Revolut transfer through that link. Households pay before or at the time of the job. Business customers pay within 7 days of the invoice. We will never ask for card details by phone, message or email; only pay through the secure link on our invoice. A one-off job does not need a contract. Home Care is €19 a month, paid monthly in advance through that invoice link. It runs month to month, and you can end it at the end of the month you have paid for. Support hours are Monday to Friday, 9:00 to 17:00. Prices: pay per job. All prices include VAT at 23%. Business customers get a VAT invoice.
 
 - Standard: €60 per hour, Monday to Friday, 9:00 to 17:00. Remote, or on-site in Limerick city by arrangement.
 - After hours or emergencies: €160 per hour.
@@ -62,7 +62,7 @@ You pay for the work done. Households pay upfront by card through a Revolut Busi
   - Business email and domain setup (Microsoft 365 or Google Workspace, up to 5 users, SPF/DKIM/DMARC, 2FA): €370. Mailbox migration: €75 per mailbox. The client pays the domain and email provider directly, in their own name.
   - Encrypted USB key setup: €60, plus the key at cost. The client buys the key.
   - 1-to-1 tech lessons (beginner-friendly, by video call or in Limerick): €55 per hour, or 4 sessions for €195.
-  - Home Care plan (remote): €19 per month per household, up to 3 devices. Paid monthly in advance by a Revolut Business payment link. Covers backup alerts, a quarterly test restore, and up to 30 minutes of remote help a month. It runs month to month. You can end it at any time, and it ends at the end of the month you have paid for.
+  - Home Care plan (remote): €19 per month per household, up to 3 devices. Paid monthly in advance through the Revolut Business invoice link. Covers backup alerts, a quarterly test restore, and up to 30 minutes of remote help a month. It runs month to month. You can end it at any time, and it ends at the end of the month you have paid for.
 
 The IT page also says: Your data stays yours: we use open, standard backup formats, so you never pay to get your files back.
 
