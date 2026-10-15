@@ -339,7 +339,7 @@ a.brand:hover,
 }
 
 .card,
-.plan,
+.rate,
 .faq,
 .tray,
 .path {
@@ -361,8 +361,7 @@ a.brand:hover,
 
 .card p:last-child,
 .path p:last-child,
-.faq p:last-child,
-.plan ul {
+.faq p:last-child {
   margin-bottom: 0;
 }
 
@@ -399,7 +398,6 @@ a.brand:hover,
 .inbox,
 .paths,
 .steps,
-.plan ul,
 .nav {
   list-style: none;
 }
@@ -576,62 +574,75 @@ a.brand:hover,
 
 /* Pricing */
 
-.plans {
+.rates {
   display: grid;
   gap: 0.75rem;
   margin-top: 1.35rem;
 }
 
-.plan {
+.rates-jobs {
+  margin-top: 0.75rem;
+}
+
+.rate {
   padding: 1.15rem 1.15rem 1.2rem;
   border-top: 4px solid var(--green);
 }
 
-.plan-for {
-  margin: 0 0 0.25rem;
-  color: var(--green);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+.rate h3 {
+  margin-bottom: 0.35rem;
+  font-size: 1.2rem;
 }
 
-.plan-price {
-  margin: 0.2rem 0 0.85rem;
+.rate-price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.45rem;
+  margin: 0.15rem 0 0.7rem;
+  color: var(--ink);
   font-family: var(--serif);
-  font-size: clamp(1.7rem, 3vw, 2.15rem);
-  line-height: 1.1;
+  line-height: 1.05;
   letter-spacing: -0.02em;
 }
 
-.plan ul {
+.rate-price:last-child {
+  margin-bottom: 0;
+}
+
+.rate-figure {
+  font-size: clamp(1.85rem, 3vw, 2.35rem);
+}
+
+.rate-unit {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 650;
+  letter-spacing: 0;
+}
+
+.rate-detail {
   margin: 0;
-  padding: 0;
+  color: var(--muted);
 }
 
-.plan li {
-  padding: 0.4rem 0;
-  border-top: 1px solid var(--line);
-}
-
-.plan-note {
+.rate-rule {
   margin: 0.75rem 0 0;
-  padding-top: 0.7rem;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
+  padding: 0.85rem 1.05rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--green);
 }
 
-.setup-fee {
-  margin: 1.15rem 0 0.35rem;
-  font-family: var(--serif);
-  font-size: 1.35rem;
-  letter-spacing: -0.02em;
+.rate-travel {
+  margin-top: 0.75rem;
 }
 
-.setup-note {
-  margin: 0;
-  max-width: 40rem;
-  color: var(--muted);
+.vat-line {
+  margin: 0 0 0.15rem;
+  max-width: 42rem;
+  font-weight: 650;
 }
 
 /* Steps and FAQ */
@@ -808,7 +819,6 @@ a.brand:hover,
 
 @media (min-width: 40rem) {
   .cards,
-  .plans,
   .paths {
     grid-template-columns: 1fr 1fr;
   }
@@ -834,6 +844,18 @@ a.brand:hover,
   .footer-grid {
     grid-template-columns: minmax(12rem, 16rem) minmax(0, 1fr);
     gap: 2.5rem;
+  }
+}
+
+@media (min-width: 40rem) {
+  .rates-jobs {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 52rem) {
+  .rates {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -885,7 +907,8 @@ a.brand:hover,
 @media (forced-colors: active) {
   .button,
   .card,
-  .plan,
+  .rate,
+  .rate-rule,
   .path,
   .faq,
   .tray,
@@ -916,7 +939,8 @@ a.brand:hover,
   .band,
   .contact,
   .card,
-  .plan,
+  .rate,
+  .rate-rule,
   .path,
   .faq,
   .tray {
