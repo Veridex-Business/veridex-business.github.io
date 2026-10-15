@@ -30,13 +30,13 @@ The work is software, setup, accounts, backups, security and automations, includ
 
 ## Footer
 
-Home, the IT page, privacy, and terms share this line:
+Home, the IT page, privacy, terms, and the shop redirect share this line, in small text:
 
-Veridex Ltd, registered in Ireland, company no. 824155, registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4
+Veridex Ltd · Registered in Ireland, CRO 824155 · Registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4 · Directors: Nigel de Boerr, Holly McNamara · VAT IE4823930BH
+
+Each of those footers links to Privacy and Terms. The contact email stays enquiries@agentmail.to. Do not publish nigel@veridex.ie until that address can receive mail.
 
 The home page and the IT page use that same registered office as the place line in the header. Do not publish a different postal address or a home address. Limerick on the IT page is the service area, not a postal address.
-
-Each of those footers links to the privacy page. The shop redirect is left unchanged.
 
 ## Change the email
 
