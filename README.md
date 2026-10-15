@@ -46,14 +46,14 @@ The IT page lists 085 715 0506 in **How to get in touch**, linked as `tel:+35385
 
 ## IT pricing
 
-You pay for the work done. Veridex Ltd invoices after the job. Payment is due within 7 days. A one-off job does not need a contract. Home Care is the monthly plan. Support hours are Monday to Friday, 9:00 to 17:00. All figures are ex VAT. Prices are a guide until confirmed.
+You pay for the work done. Veridex Ltd invoices after the job. Payment is due within 7 days. A one-off job does not need a contract. Home Care is the monthly plan. Support hours are Monday to Friday, 9:00 to 17:00. Prices: pay per job. No VAT is charged (Veridex Ltd is not VAT-registered). The price shown is the price you pay.
 
 - Standard: €50 per hour, Monday to Friday, 9:00 to 17:00. Remote, or on-site in Limerick city by arrangement.
 - After hours or emergencies: €130 per hour.
 - Full day: €375.
 - Remote work: 30 minutes minimum, then 15-minute steps. On-site visits: 1-hour minimum (€50).
 - Backup check (remote, up to 5 devices): €35 flat. Includes confirming backups ran and are recent, running the backup tool's integrity check, and restoring 2 or 3 sample files to check they open. Does not include a full restore or booting the backup in a virtual machine. Fixing failed backups is billed hourly.
-- Full restore test: €60 flat. Everything in the backup check, plus restoring a whole device or the main shared data to a spare disk or virtual machine, booting or opening it, and confirming it works, with a written report. Covers time up to €75 at the standard rate. Time beyond that is billed at €50 per hour.
+- Full restore test: €60 flat. Everything in the backup check, plus restoring a whole device or the main shared data to a spare disk or virtual machine, booting or opening it, and confirming it works, with a written report. Covers time up to €75 at the standard rate, covering up to 1.5 hours. Time beyond that is billed at €50 per hour.
 - Fixed-price jobs:
   - Scam or virus clean-up (remote): €79.
   - Home security and password check-up (password manager, 2FA on email and bank, router admin password, device updates, data-leak check, one-page summary; remote, up to 3 people): €99 per household.
@@ -66,7 +66,7 @@ You pay for the work done. Veridex Ltd invoices after the job. Payment is due wi
 
 The IT page also says: Your data stays yours: we use open, standard backup formats, so you never pay to get your files back.
 
-The IT page also says: Prices are a guide until confirmed. Prices exclude VAT. VAT is added where it applies.
+The IT page also says: Prices: pay per job. No VAT is charged (Veridex Ltd is not VAT-registered). The price shown is the price you pay.
 
 ## Social links
 
