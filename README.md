@@ -24,9 +24,9 @@ The print shop, Veridex Prints, lives in the separate repository `Veridex-Busine
 
 The IT page header is **Veridex Ltd**. Use that wherever the business is named. Do not shorten it to Veridex, and do not use “Veridex IT & Automation” or “Local IT & Automation” as a trading name.
 
-The IT page is aimed at local businesses with about 1 to 10 staff. The service area line is: On-site around Limerick city, remote anywhere in Ireland.
+The IT page is aimed at local businesses with about 1 to 10 staff. The service area line is: Remote support across Ireland. On-site visits in Limerick city, by arrangement only. Do not offer mileage, or travel further afield.
 
-The work is software, setup, accounts, backups, security and automations, including Mac and macOS. Do not claim hardware repair or parts replacement, do not offer a free IT check, and do not name clients. Avoid absolute claims such as “never”, “guaranteed”, and “none missed”. Do not promise a reply time. Prices are the figures in the next section. Do not add other figures.
+The work is software, setup, accounts, backups, security and automations, including Mac and macOS. Do not claim hardware repair or parts replacement, do not offer a free IT check, and do not name clients. Avoid absolute claims such as “never”, “guaranteed”, and “none missed”, except the approved data line in the pricing section. Do not promise a reply time. Prices are the figures in the next section. Do not add other figures.
 
 ## Footer
 
@@ -46,17 +46,27 @@ The IT page lists 085 715 0506 in **How to get in touch**, linked as `tel:+35385
 
 ## IT pricing
 
-You pay for the work done. Veridex Ltd invoices after the job. Payment is due within 7 days. No contract or monthly fee is required. Support hours are Monday to Friday, 9:00 to 17:00. All figures are ex VAT.
+You pay for the work done. Veridex Ltd invoices after the job. Payment is due within 7 days. A one-off job does not need a contract. Home Care is the monthly plan. Support hours are Monday to Friday, 9:00 to 17:00. All figures are ex VAT. Prices are a guide until confirmed.
 
-- Standard: €50 per hour, Monday to Friday, 9:00 to 17:00. Remote or on-site.
+- Standard: €50 per hour, Monday to Friday, 9:00 to 17:00. Remote, or on-site in Limerick city by arrangement.
 - After hours or emergencies: €130 per hour.
 - Full day: €375.
-- Minimum charge: 30 minutes, then 15-minute steps.
+- Remote work: 30 minutes minimum, then 15-minute steps. On-site visits: 1-hour minimum (€50).
 - Backup check (remote, up to 5 devices): €35 flat. Includes confirming backups ran and are recent, running the backup tool's integrity check, and restoring 2 or 3 sample files to check they open. Does not include a full restore or booting the backup in a virtual machine. Fixing failed backups is billed hourly.
 - Full restore test: €60 flat. Everything in the backup check, plus restoring a whole device or the main shared data to a spare disk or virtual machine, booting or opening it, and confirming it works, with a written report. Covers time up to €75 at the standard rate. Time beyond that is billed at €50 per hour.
-- Travel: on-site around Limerick city. Travel further afield is charged at cost and agreed in advance.
+- Fixed-price jobs:
+  - Scam or virus clean-up (remote): €79.
+  - Home security and password check-up (password manager, 2FA on email and bank, router admin password, device updates, data-leak check, one-page summary; remote, up to 3 people): €99 per household.
+  - New computer setup and data transfer: €99 per computer. Phone or tablet setup: €39.
+  - Mesh Wi-Fi setup (customer buys the kit; Limerick city on-site): €139 labour.
+  - Business email and domain setup (Microsoft 365 or Google Workspace, up to 5 users, SPF/DKIM/DMARC, 2FA): €299. Mailbox migration: €60 each. The client pays the domain and email provider directly, in their own name.
+  - Encrypted backup key setup: €49, plus the key at cost. The client buys the key.
+  - 1-to-1 tech lessons (beginner-friendly, by video call or in Limerick): €45 per hour, or 4 sessions for €160.
+  - Home Care plan (remote): €15 per month per household, up to 3 devices. Covers backup alerts, a quarterly test restore, and up to 30 minutes of remote help a month. No rollover.
 
-The IT page also says: Prices exclude VAT. VAT is added where it applies.
+The IT page also says: Your data stays yours: we use open, standard backup formats, so you never pay to get your files back.
+
+The IT page also says: Prices are a guide until confirmed. Prices exclude VAT. VAT is added where it applies.
 
 ## Social links
 
