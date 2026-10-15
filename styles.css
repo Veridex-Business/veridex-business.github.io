@@ -580,8 +580,13 @@ a.brand:hover,
   margin-top: 1.35rem;
 }
 
-.rates-jobs {
+.rates-jobs,
+.rates-fixed {
   margin-top: 0.75rem;
+}
+
+.rates-heading {
+  margin: 1.75rem 0 0;
 }
 
 .rate {
@@ -848,7 +853,8 @@ a.brand:hover,
 }
 
 @media (min-width: 40rem) {
-  .rates-jobs {
+  .rates-jobs,
+  .rates.rates-fixed {
     grid-template-columns: 1fr 1fr;
   }
 }
