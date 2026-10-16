@@ -1045,6 +1045,34 @@ a.brand:hover,
   color: var(--shop);
 }
 
+.nav-soon {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: #5c564c;
+  cursor: default;
+  text-decoration: none;
+}
+
+.door--soon {
+  border-color: var(--line);
+  border-top-color: #8a8378;
+  cursor: default;
+}
+
+.door--soon .kicker,
+.door--soon h2,
+.door--soon .nav-soon,
+.door--soon p {
+  color: #5c564c;
+}
+
+.door--soon:hover,
+.door--soon:focus-visible {
+  border-color: var(--line);
+  border-top-color: #8a8378;
+}
+
 .prose {
   max-width: 40rem;
 }

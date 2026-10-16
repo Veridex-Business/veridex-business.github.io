@@ -12,13 +12,13 @@ This repository is named `veridex-business.github.io`. GitHub Pages serves it as
 | --- | --- |
 | `/` | Home. Routes to the two lines of business. Legal name: **Veridex Ltd**. |
 | `/it/` | IT support for small businesses in Limerick. Header: **Veridex Ltd**. |
-| `/shop/` | Redirects to the live print shop at `/veridex-shop/`. |
+| `/shop/` | Coming soon. A short page on this site, with a link back home. |
 | `/privacy/` | Privacy note. Draft: the owner should review it. |
 | `/terms/` | Terms for IT support. Draft: the owner should review it. |
 
 Shared files stay at the root: `styles.css`, `favicon.ico`, `favicon.svg`, `og.png` (the IT page), and `og-veridex.png` (the other pages). Pages link to those with root paths such as `/styles.css`, so they work from `/it/` and the other folders. An empty `.nojekyll` file tells GitHub Pages to serve the files as they are.
 
-The print shop, Veridex Prints, lives in the separate repository `Veridex-Business/veridex-shop` and is published at https://veridex-business.github.io/veridex-shop/. The home page links there. `/shop/` stays in this repository as a redirect so older links still work.
+The print shop lives in a separate repository. This site does not link to it for now. Nav and the home page show “Shop (coming soon)” as grey text, and `/shop/` is a coming-soon page.
 
 ## IT service name
 
@@ -30,7 +30,7 @@ The work is software, setup, accounts, backups, security and automations, includ
 
 ## Footer
 
-Home, the IT page, privacy, terms, and the shop redirect share this line, in small text:
+Home, the IT page, privacy, terms, and the coming-soon page share this line, in small text:
 
 Veridex Ltd, private company limited by shares · Registered in Ireland, CRO no. 824155 · Registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4 · VAT no. IE4823930BH · nigel@veridex.ie
 
