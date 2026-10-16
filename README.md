@@ -14,7 +14,7 @@ This repository is named `veridex-business.github.io`. GitHub Pages serves it as
 | `/it/` | IT support for small businesses in Limerick. Header: **Veridex Ltd**. |
 | `/shop/` | Redirects to the live print shop at `/veridex-shop/`. |
 | `/privacy/` | Privacy note. Draft: the owner should review it. |
-| `/terms/` | Site terms, plus shop terms marked to be finalised before anything is sold. Draft: the owner should review it. |
+| `/terms/` | Terms for IT support. Draft: the owner should review it. |
 
 Shared files stay at the root: `styles.css`, `favicon.ico`, `favicon.svg`, `og.png` (the IT page), and `og-veridex.png` (the other pages). Pages link to those with root paths such as `/styles.css`, so they work from `/it/` and the other folders. An empty `.nojekyll` file tells GitHub Pages to serve the files as they are.
 
@@ -30,23 +30,23 @@ The work is software, setup, accounts, backups, security and automations, includ
 
 ## Footer
 
-Home, the IT page, privacy, and terms share this line:
+Home, the IT page, privacy, terms, and the shop redirect share this line, in small text:
 
-Veridex Ltd, registered in Ireland, company no. 824155, registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4
+Veridex Ltd, private company limited by shares · Registered in Ireland, CRO no. 824155 · Registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4 · VAT no. IE4823930BH · nigel@veridex.ie
 
-The home page and the IT page use that same registered office as the place line in the header. Do not publish a different postal address or a home address. Limerick on the IT page is the service area, not a postal address.
+Each of those footers links to Privacy and Terms. The contact email is nigel@veridex.ie. Do not add personal details.
 
-Each of those footers links to the privacy page. The shop redirect is left unchanged.
+The registered office appears once, in the footer. The home and IT headers say Ireland. Do not publish a different postal address or a home address. Limerick on the IT page is the service area, not a postal address.
 
 ## Change the email
 
-Search the repository for `enquiries@agentmail.to` and replace every occurrence, including `mailto:` links.
+The contact email is `nigel@veridex.ie`, including `mailto:` links.
 
 The IT page lists 085 715 0506 in **How to get in touch**, linked as `tel:+353857150506`.
 
 ## IT pricing
 
-You pay for the work done. Veridex Ltd invoices after the job. Payment is due within 7 days. A one-off job does not need a contract. Home Care is the monthly plan. Support hours are Monday to Friday, 9:00 to 17:00. Prices: pay per job. All prices include VAT at 23%. Business customers get a VAT invoice.
+You pay for the work done. We send a Revolut Business invoice with a secure payment link by WhatsApp or email. You can pay by card, Apple Pay, Google Pay or Revolut transfer through that link. Households pay before or at the time of the job. Business customers pay within 7 days of the invoice. We will never ask for card details by phone, message or email; only pay through the secure link on our invoice. A one-off job does not need a contract. Home Care is €19 a month, paid monthly in advance through that invoice link. It runs month to month, and you can end it at the end of the month you have paid for. Support hours are Monday to Friday, 9:00 to 17:00. Prices: pay per job. All prices include VAT at 23%. Business customers get a VAT invoice.
 
 - Standard: €60 per hour, Monday to Friday, 9:00 to 17:00. Remote, or on-site in Limerick city by arrangement.
 - After hours or emergencies: €160 per hour.
@@ -62,7 +62,7 @@ You pay for the work done. Veridex Ltd invoices after the job. Payment is due wi
   - Business email and domain setup (Microsoft 365 or Google Workspace, up to 5 users, SPF/DKIM/DMARC, 2FA): €370. Mailbox migration: €75 per mailbox. The client pays the domain and email provider directly, in their own name.
   - Encrypted USB key setup: €60, plus the key at cost. The client buys the key.
   - 1-to-1 tech lessons (beginner-friendly, by video call or in Limerick): €55 per hour, or 4 sessions for €195.
-  - Home Care plan (remote): €19 per month per household, up to 3 devices. Covers backup alerts, a quarterly test restore, and up to 30 minutes of remote help a month. No rollover.
+  - Home Care plan (remote): €19 per month per household, up to 3 devices. Paid monthly in advance through the Revolut Business invoice link. Covers backup alerts, a quarterly test restore, and up to 30 minutes of remote help a month. It runs month to month. You can end it at any time, and it ends at the end of the month you have paid for.
 
 The IT page also says: Your data stays yours: we use open, standard backup formats, so you never pay to get your files back.
 
@@ -102,4 +102,4 @@ To check or turn that on again:
 
 ## What this site does not include
 
-No contact form, no JavaScript, no external fonts, and no tracking cookies or analytics. Email and the phone number on the IT page are how to get in touch. The privacy and terms pages are drafts for the owner to review before they are treated as final.
+No contact form and no JavaScript. The shop fonts and icon file are stored in this repository. Email and the phone number on the IT page are how to get in touch. The privacy and terms pages are drafts for the owner to review before they are treated as final.

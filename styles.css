@@ -769,10 +769,13 @@ a.brand:hover,
   margin-bottom: 0.35rem;
 }
 
-.footer-legal {
-  margin: 0 0 0.9rem;
-  max-width: 40rem;
-  color: var(--ink);
+.footer-legal,
+.footer-company {
+  margin: 0 0 0.75rem;
+  max-width: 46rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
 }
 
 .footer-meta {
@@ -1052,6 +1055,45 @@ a.brand:hover,
 
 .prose h2:first-of-type {
   margin-top: 1.5rem;
+}
+
+.prose h3 {
+  margin-top: 1.35rem;
+  font-size: 1.2rem;
+}
+
+.tbc {
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.table-scroll {
+  max-width: 100%;
+  margin: 0 0 1.15rem;
+  overflow-x: auto;
+}
+
+.notice-table {
+  width: 100%;
+  min-width: 36rem;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.notice-table th,
+.notice-table td {
+  border-top: 1px solid var(--line);
+  padding: 0.65rem 0.7rem 0.7rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.notice-table th {
+  color: var(--green);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 
 @media (min-width: 40rem) {
