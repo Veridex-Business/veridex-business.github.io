@@ -32,15 +32,15 @@ The work is software, setup, accounts, backups, security and automations, includ
 
 Home, the IT page, privacy, terms, and the coming-soon page share this line, in small text:
 
-Veridex Ltd, private company limited by shares · Registered in Ireland, CRO no. 824155 · Registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4 · VAT no. IE4823930BH · nigel@veridex.ie
+Veridex Ltd, private company limited by shares · Registered in Ireland, CRO no. 824155 · Registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4 · VAT no. IE4823930BH · contact@veridex.ie
 
-Each of those footers links to Privacy and Terms. The contact email is nigel@veridex.ie. Do not add personal details.
+Each of those footers links to Privacy and Terms. The contact email is contact@veridex.ie. Do not add personal details.
 
 The registered office appears once, in the footer. The home and IT headers say Ireland. Do not publish a different postal address or a home address. Limerick on the IT page is the service area, not a postal address.
 
 ## Change the email
 
-The contact email is `nigel@veridex.ie`, including `mailto:` links.
+The contact email is `contact@veridex.ie`, including `mailto:` links.
 
 The IT page lists 085 715 0506 in **How to get in touch**, linked as `tel:+353857150506`.
 
