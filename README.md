@@ -12,6 +12,7 @@ This repository is named `veridex-business.github.io`. GitHub Pages serves it as
 | --- | --- |
 | `/` | Home. Routes to the two lines of business. Legal name: **Veridex Ltd**. |
 | `/it/` | IT support for small businesses in Limerick. Header: **Veridex Ltd**. |
+| `/learn/` | Free lessons: Help your parents with tech. No prices on these pages. |
 | `/shop/` | Coming soon. A short page on this site, with a link back home. |
 | `/privacy/` | Privacy note. Draft: the owner should review it. |
 | `/terms/` | Terms for IT support. Draft: the owner should review it. |
@@ -30,7 +31,7 @@ The work is software, setup, accounts, backups, security and automations, includ
 
 ## Footer
 
-Home, the IT page, privacy, terms, and the coming-soon page share this line, in small text:
+Home, the IT page, the learn pages, privacy, terms, and the coming-soon page share this line, in small text:
 
 Veridex Ltd, private company limited by shares · Registered in Ireland, CRO no. 824155 · Registered office: Unit 2, 2 Bridge Street, Athlone, Co. Westmeath, N37 F1W4 · VAT no. IE4823930BH · contact@veridex.ie
 
