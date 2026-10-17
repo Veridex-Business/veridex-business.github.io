@@ -41,9 +41,7 @@ The registered office appears once, in the footer. The home and IT headers say I
 
 ## Change the email
 
-The contact email is `contact@veridex.ie`, including `mailto:` links.
-
-The IT page lists 085 715 0506 in **How to get in touch**, linked as `tel:+353857150506`.
+The contact email is `contact@veridex.ie`, including `mailto:` links. Do not publish a phone number.
 
 ## IT pricing
 
@@ -103,4 +101,4 @@ To check or turn that on again:
 
 ## What this site does not include
 
-No contact form and no JavaScript. The shop fonts and icon file are stored in this repository. Email and the phone number on the IT page are how to get in touch. The privacy and terms pages are drafts for the owner to review before they are treated as final.
+No contact form and no JavaScript. The shop fonts and icon file are stored in this repository. Email is how to get in touch. The privacy and terms pages are drafts for the owner to review before they are treated as final.
